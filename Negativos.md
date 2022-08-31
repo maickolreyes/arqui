@@ -29,7 +29,7 @@ Ejemplos:
 
 #### Complemento 1
 
-Para este metodo se trabaja como si el numero fuese positivo, se convierte en binario y a este resultado se le invierten los valores.
+Para este metodo se trabaja como si el número fuese positivo, se convierte en binario y a este resultado se le invierten los valores.
 
 Ej.:  
 
@@ -37,4 +37,30 @@ $-362$
   - Se trabaja el binario como positivo
     - $362$ $\rightarrow$ $0$ $0000001$ $01101010$
   - Ahora se invierten todos los valores del binario y se añade el signo
-    - $-362$ $\rightarrow$ $0$ $0000001$ $01101010$ $\rightarrow$ $1$ $1111110$ $10010101$
+    - $-362$ $\rightarrow$ $1$ $0000001$ $01101010$ $\rightarrow$ $1$ $1111110$ $10010101$
+
+Ejemplos:
+  - $-239$ : $0$ $0000000$ $11101111$ $\rightarrow$ $1$ $1111111$ $00010000$
+  - $-100$ : $0$ $0000000$ $01100100$ $\rightarrow$ $1$ $1111111$ $10011011$
+  - $549$  : $0$ $0000010$ $00100101$ $\rightarrow$ $0$ $0000010$ $00100101$
+
+
+#### Complemento 2
+
+Para este metodo se trabaja como si el número fuese positivo, se convierte en binario y a este resultado se le invierten los valores **pero** desde el primer **1** que encuentra, sin contar a ese mismo.
+
+Ej.:
+
+$-255$
+  - Se trabaja el binario como positivo
+    - $255$ $\rightarrow$ $0$ $0000000$ $11111111$
+  - Ahora se le invierten los valores desde el primer **1** sin contar al mismo:
+    - $-255$ $\rightarrow$ $1$ $0000000$ $11111111$ $\rightarrow$ $1$ $1111111$ $00000001$
+
+Ejemplos:
+
+- $-128$  : $0$ $0000000$ $10000000$ $\rightarrow$ $1$ $1111111$ $10000000$
+- $-245$  : $0$ $0000000$ $11110101$ $\rightarrow$ $1$ $1111111$ $00001011$
+- $-1022$ : $0$ $0000011$ $11111110$ $\rightarrow$ $1$ $1111100$ $00000010$
+- $1024$  : $0$ $0000100$ $00000000$ $\rightarrow$ $0$ $0000100$ $00000000$
+
