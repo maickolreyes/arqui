@@ -9,7 +9,7 @@
     |-------|-------|-------|-------|-------|-------|-------|-------|
     |  128  |   64  |   32  |   16  |   8   |   4   |   2   |   1   |
 
-    **Convertir:** Binario -> Decimal
+    **Convertir:** Binario $\rightarrow$ Decimal
 
     $00101101$
 
@@ -18,12 +18,12 @@
     |   0   |   0   |   1   |   0   |   1   |   1   |   0   |   1   |
     |  128  |  64   |   32  |   16  |   8   |   4   |   2   |   1   |
 
-* $00101101$ -> $0*2^{7}$ + $0*2^{6}$ + $1*2^{5}$ + $0*2^{4}$ + $1*2^{3}$ + $1*2^{2}$ + $0*2^{1}$ + $1*2^{0}$
-* $00101101$ -> $0*128$ + $0*64$ + $1*32$ + $0*16$ + $1*8$ + $1*4$ + $0*2$ + $1*1$
-* $00101101$ -> $32$ + $8$ + $4$ + $1$
-* $00101101$ -> $45$
+* $00101101$ $\rightarrow$ $0*2^{7}$ + $0*2^{6}$ + $1*2^{5}$ + $0*2^{4}$ + $1*2^{3}$ + $1*2^{2}$ + $0*2^{1}$ + $1*2^{0}$
+* $00101101$ $\rightarrow$ $0*128$ + $0*64$ + $1*32$ + $0*16$ + $1*8$ + $1*4$ + $0*2$ + $1*1$
+* $00101101$ $\rightarrow$ $32$ + $8$ + $4$ + $1$
+* $00101101$ $\rightarrow$ $45$
 
-    **Convertir:** Decimal -> Binario
+    **Convertir:** Decimal $\rightarrow$ Binario
 
     $234$
 
@@ -53,7 +53,7 @@
     |   1   |   1   |   1   |   0   |   1   |   0   |   1   |   0   |
   
   - Dando como resultado:
-    - $234$ -> $11101010$
+    - $234$ $\rightarrow$ $11101010$
 
 ## **Octal**
 
@@ -66,27 +66,27 @@
     |2097152| 262144| 32768 |  4096 |  512  |  64   |   8   |   1   |
 
 
-    **Convertir:** Octal -> Decimal
+    **Convertir:** Octal $\rightarrow$ Decimal
 
     $623_{(8)}$
 
     - Se realizan pasos similares al binario, es decir, dígito por la potencia de 8 correspondiente a la ubicacion del dígito:
 
-      - $623_{(8)}$ -> $6 * 8^2$ + $2*8^1$ + $3*8^0$
-      - $623_{(8)}$ -> $6 * 64$ + $2*8$ + $3*1$
-      - $623_{(8)}$ -> $384$ + $16$ + $3$
-      - $623_{(8)}$ -> $403$  
+      - $623_{(8)}$ $\rightarrow$ $6 * 8^2$ + $2*8^1$ + $3*8^0$
+      - $623_{(8)}$ $\rightarrow$ $6 * 64$ + $2*8$ + $3*1$
+      - $623_{(8)}$ $\rightarrow$ $384$ + $16$ + $3$
+      - $623_{(8)}$ $\rightarrow$ $403$  
    
-    **Convertir:** Decimal -> Octal
+    **Convertir:** Decimal $\rightarrow$ Octal
 
     $95$
     - Realizar un ciclo repetitivo de divisiones hasta llegar a 0 **(División entera, NO decimales)**
-      - $95$ -> $95/8 = 11$ Sobran $95-(8*11) = 7$
+      - $95$ $\rightarrow$ $95/8 = 11$ Sobran $95-(8*11) = 7$
     - Se sigue trabajando con el resultado de la división por 8 y al finalizar la operación se toman todos los restos de las divisiones y se agrupan desde el último al primero de izquierda a derecha
-      - $95$ -> $11/8 = 1$ Sobran $11 - (8*1) = 3$
-      - $95$ -> $1/8 = 0$ Sobran $ 1 - (8*0) = 1$
+      - $95$ $\rightarrow$ $11/8 = 1$ Sobran $11 - (8*1) = 3$
+      - $95$ $\rightarrow$ $1/8 = 0$ Sobran $ 1 - (8*0) = 1$
     - Tomando el resto de la divisiones el numero quedaría como:
-      - $95$ -> $137_{(8)}$
+      - $95$ $\rightarrow$ $137_{(8)}$
 
 
 ## Hexadecimal
@@ -100,42 +100,35 @@
 
     Representacion de valores hexadecimal a decimal:
 
-    | Hexa |Decimal|
-    |------|-------|
-    |   0  |   0   |
-    |   1  |   1   |
-    |   2  |   2   |
-    |   3  |   3   |
-    |   4  |   4   |
-    |   5  |   5   |
-    |   6  |   6   |
-    |   7  |   7   |
-    |   8  |   8   |
-    |   9  |   9   |
-    |   A  |   10  |
-    |   B  |   11  |
-    |   C  |   12  |
-    |   D  |   13  |
-    |   E  |   14  |
-    |   F  |   15  |
+    | Hexa |Decimal| Hexa |Decimal|
+    |------|-------|------|-------|
+    |   0  |   0   |   8  |   8   |
+    |   1  |   1   |   9  |   9   |
+    |   2  |   2   |   A  |   10  |
+    |   3  |   3   |   B  |   11  |
+    |   4  |   4   |   C  |   12  |
+    |   5  |   5   |   D  |   13  |
+    |   6  |   6   |   E  |   14  |
+    |   7  |   7   |   F  |   15  |
 
-    **Convertir:** Hexadecimal -> Decimal
+
+    **Convertir:** Hexadecimal $\rightarrow$ Decimal
 
     $6\text{F}9_{(16)}$
 
     - Mismos pasos que octal y binario:
-      - $6\text{F}9$ -> $6*16^2$ + $\text{F}*16^1$ + $9*16^0$
-      - $6\text{F}9$ -> $6*256$ + $15*16$ + $9*1$
-      - $6\text{F}9$ -> $1536$ + $240$ + $9$
-      - $6\text{F}9$ -> $1785$
+      - $6\text{F}9$ $\rightarrow$ $6*16^2$ + $\text{F}*16^1$ + $9*16^0$
+      - $6\text{F}9$ $\rightarrow$ $6*256$ + $15*16$ + $9*1$
+      - $6\text{F}9$ $\rightarrow$ $1536$ + $240$ + $9$
+      - $6\text{F}9$ $\rightarrow$ $1785$
 
-    **Convertir:** Decimal -> Hexadecimal
+    **Convertir:** Decimal $\rightarrow$ Hexadecimal
 
     $250$
 
     - Mismo pasos que el octal pero esta vez con 16:
-      - $250$ -> $250/16 = 15$ Sobran $250 - (16*15) = 10$
-      - $250$ -> $15/16 = 0$ Sobran $15 - (16*0) = 15$
+      - $250$ $\rightarrow$ $250/16 = 15$ Sobran $250 - (16*15) = 10$
+      - $250$ $\rightarrow$ $15/16 = 0$ Sobran $15 - (16*0) = 15$
     - Tomando el resto de las divisiones tenemos:
-      - $15$ -> $\text{F}$ + $10$ -> $\text{A}$ = FA
-    - $250$ -> $\text{FA}$
+      - $15$ $\rightarrow$ $\text{F}$ + $10$ $\rightarrow$ $\text{A}$ = FA
+    - $250$ $\rightarrow$ $\text{FA}$
