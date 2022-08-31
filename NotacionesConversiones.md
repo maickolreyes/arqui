@@ -84,7 +84,7 @@
       - $95$ $\rightarrow$ $95/8 = 11$ Sobran $95-(8*11) = 7$
     - Se sigue trabajando con el resultado de la división por 8 y al finalizar la operación se toman todos los restos de las divisiones y se agrupan desde el último al primero de izquierda a derecha
       - $95$ $\rightarrow$ $11/8 = 1$ Sobran $11 - (8*1) = 3$
-      - $95$ $\rightarrow$ $1/8 = 0$ Sobran $ 1 - (8*0) = 1$
+      - $95$ $\rightarrow$ $1/8 = 0$ Sobran $1 - (8*0) = 1$
     - Tomando el resto de la divisiones el numero quedaría como:
       - $95$ $\rightarrow$ $137_{(8)}$
 
