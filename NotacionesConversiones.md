@@ -18,9 +18,9 @@
     |   0   |   0   |   1   |   0   |   1   |   1   |   0   |   1   |
     |  128  |  64   |   32  |   16  |   8   |   4   |   2   |   1   |
 
-* $00101101$ $\rightarrow$ $0*2^{7}$ + $0*2^{6}$ + $1*2^{5}$ + $0*2^{4}$ + $1*2^{3}$ + $1*2^{2}$ + $0*2^{1}$ + $1*2^{0}$
-* $00101101$ $\rightarrow$ $0*128$ + $0*64$ + $1*32$ + $0*16$ + $1*8$ + $1*4$ + $0*2$ + $1*1$
-* $00101101$ $\rightarrow$ $32$ + $8$ + $4$ + $1$
+* $00101101$ $\rightarrow$ $0 * 2^{7} + 0 * 2^{6} + 1 * 2^{5} + 0 * 2^{4} + 1 * 2^{3} + 1 * 2^{2} + 0 * 2^{1} + 1 * 2^{0}$
+* $00101101$ $\rightarrow$ $0 * 128$ + $0 * 64$ + $1 * 32$ + $0 * 16$ + $1 * 8$ + $1 * 4$ + $0 * 2$ + $1 * 1$
+* $00101101$ $\rightarrow$ $32 + 8 + 4 + 1$
 * $00101101$ $\rightarrow$ $45$
 
     **Convertir:** Decimal $\rightarrow$ Binario
@@ -72,8 +72,8 @@
 
     - Se realizan pasos similares al binario, es decir, dígito por la potencia de 8 correspondiente a la ubicacion del dígito:
 
-      - $623_{(8)}$ $\rightarrow$ $6 * 8^2$ + $2*8^1$ + $3*8^0$
-      - $623_{(8)}$ $\rightarrow$ $6 * 64$ + $2*8$ + $3*1$
+      - $623_{(8)}$ $\rightarrow$ $6$ * $8^2$ + $2$*$8^1$ + $3$*$8^0$
+      - $623_{(8)}$ $\rightarrow$ $6$ * $64$ + $2$*$8$ + $3$*$1$
       - $623_{(8)}$ $\rightarrow$ $384$ + $16$ + $3$
       - $623_{(8)}$ $\rightarrow$ $403$  
    
@@ -117,8 +117,8 @@
     $6\text{F}9_{(16)}$
 
     - Mismos pasos que octal y binario:
-      - $6\text{F}9$ $\rightarrow$ $6*16^2$ + $\text{F}*16^1$ + $9*16^0$
-      - $6\text{F}9$ $\rightarrow$ $6*256$ + $15*16$ + $9*1$
+      - $6\text{F}9$ $\rightarrow$ $6$*$16^2$ + $\text{F}$*$16^1$ + $9$*$16^0$
+      - $6\text{F}9$ $\rightarrow$ $6$*$256$ + $15$*$16$ + $9$*$1$
       - $6\text{F}9$ $\rightarrow$ $1536$ + $240$ + $9$
       - $6\text{F}9$ $\rightarrow$ $1785$
 
