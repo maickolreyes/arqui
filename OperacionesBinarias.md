@@ -16,12 +16,13 @@ $+ 01$
 
 #### Resta Binaria
 
- $0  -  0  =  0$
- $10  -  1  =  1$  Acarreo Negativo, -1 al siguiente
- $1  -  0  =  1$ 
- $1  -  1  =  0$
+ $0  -  0  =  0$  
+ $10  -  1  =  1$  Acarreo Negativo, -1 al siguiente  
+ $1  -  0  =  1$  
+ $1  -  1  =  0$  
 
  Resta:
+
  110  
 -001  
  101  
