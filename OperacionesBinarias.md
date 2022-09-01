@@ -50,7 +50,7 @@ Mismos procesos como una division decimal, como consejo ,al momento de dividir, 
 $110 / 11 = 10$
 
 | 110 | / | 11 | = | 1 |
-| 11  |   |    |   |   |
+| 11  |---|----|---|---|
 |  00 | / | 11 | = | 0 |
-|  00 |   |    |   |   |
+|  00 |---|----|---|---|
 | 110 | / | 11 | = | 10|
