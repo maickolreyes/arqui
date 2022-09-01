@@ -64,3 +64,19 @@ Ejemplos:
 - $-1022$ : $0$ $0000011$ $11111110$ $\rightarrow$ $1$ $1111100$ $00000010$
 - $1024$  : $0$ $0000100$ $00000000$ $\rightarrow$ $0$ $0000100$ $00000000$
 
+#### Mecanismo de Exceso
+
+Para esto se utiliza el siguiente método:
+
+  - Se utilizara un registro de 8 Bits y Z como exceso, Utilizando la formula $2^{n-1} - 1$, representaremos el valor decimal -34 en binario.
+
+$EX(2^{8-1}) - 1 = 127$
+$-34 + 127 = 93$
+
+Representando el $93$ en binario: 
+
+$93$ $\rightarrow$ $01011101$
+
+Podemos decir que:
+
+$-34 = 01011101$
