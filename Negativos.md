@@ -70,7 +70,7 @@ Para esto se utiliza el siguiente método:
 
   - Se utilizara un registro de 8 Bits y Z como exceso, Utilizando la formula $2^{n-1} - 1$, representaremos el valor decimal -34 en binario.
 
-$EX(2^{8-1}) - 1 = 127$
+$\text{EX}(2^{8-1}) - 1 = 127$
 $-34 + 127 = 93$
 
 Representando el $93$ en binario: 
@@ -80,3 +80,22 @@ $93$ $\rightarrow$ $01011101$
 Podemos decir que:
 
 $-34 = 01011101$
+
+
+Ejercicios:
+ - Signo y Magnitud:  
+   - $-359$
+   - $276$
+   - $-968$
+ - Complemento 1:
+   - $-249$
+   - $538$
+   - $-619$
+ - Complemento 2:
+   - $462$
+   - $-297$
+   - $-105$
+ - Mecanismo de Exceso:
+   - $-80$
+   - $97$
+   - $-22$
