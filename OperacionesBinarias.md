@@ -39,7 +39,18 @@ Si la mulplicacion posee 2 o más digitos binarios, esta se complementa con una 
  Multiplicar:
 $1011 * 1 = 1011$  
 $101 * 10$  
-$\b 000$  
+$000$  
 $101-$  
 $1010$  
 
+#### División Binaria
+
+Mismos procesos como una division decimal, como consejo ,al momento de dividir, tomemos los mismos numeros decimales tanto de divisor como dividendo:
+
+$110 / 11 = 10$
+
+| 110 | / | 11 | = | 1 |
+| 11  |   |    |   |   |
+|  00 | / | 11 | = | 0 |
+|  00 |   |    |   |   |
+| 110 | / | 11 | = | 10|
