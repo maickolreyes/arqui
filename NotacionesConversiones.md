@@ -132,3 +132,22 @@
     - Tomando el resto de las divisiones tenemos:
       - $15$ $\rightarrow$ $\text{F}$ + $10$ $\rightarrow$ $\text{A}$ = $\text{FA}$
     - $250$ $\rightarrow$ $\text{FA}$
+
+
+Ejercicios:
+
+- Convertir de Binario a Decimal y visceversa:
+  - $10010111$
+  - $56$
+  - $00011101$
+  - $255$
+- Convertir de Octal a Decimal y visceversa:
+  - $58_{(8)}$
+  - $41_{(10)}$
+  - $65_{(8)}$
+  - $568_{(10)}$
+- Convertir de Hexa a Decimal y visceversa:
+  - $\text{F}8\text{A}_{(16)}$
+  - $325_{(10)}$
+  - $\text{FFC}_{(16)}$
+  - $689_{(10)}$

@@ -53,3 +53,13 @@ Signo / Exponente / Mantisa Hasta completar los 23 bits
 $0$ $10000100$ $01111111001100110011001$
 
 Y con esto tenemos el binario expresado en decimal.
+
+
+Ejercicios:
+
+- Convertir:
+  - $126.23$
+  - $59.6$
+  - $-176.25$
+  - $86.5$
+  - $-128.75$
