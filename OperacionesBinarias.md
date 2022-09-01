@@ -9,7 +9,7 @@ $0  +  1  =  1$
 $1  +  0  =  1$  
 $1  +  1  =  10$  Acarreo 1
 
-Suma:
+Suma:  
   $11$  
 $+ 01$  
  $100$  
@@ -29,17 +29,17 @@ $+ 01$
 
  #### Multiplicación Binaria
 
- $0 * 0 = 0$
- $0 * 1 = 0$
- $1 * 0 = 0$
- $1 * 1 = 1$
+ $0 * 0 = 0$  
+ $0 * 1 = 0$  
+ $1 * 0 = 0$  
+ $1 * 1 = 1$  
 
 Si la mulplicacion posee 2 o más digitos binarios, esta se complementa con una suma, como la suma en decimal
 
  Multiplicar:
-$1011 * 1 = 1011$
-$101 * 10$
-$ 000$
-$101-$
-$1010$
+$1011 * 1 = 1011$  
+$101 * 10$  
+$\b 000$  
+$101-$  
+$1010$  
 
