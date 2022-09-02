@@ -142,10 +142,10 @@ Ejercicios:
   - $00011101$
   - $255$
 - Convertir de Octal a Decimal y visceversa:
-  - $58_{(8)}$
+  - $57_{(8)}$
   - $41_{(10)}$
   - $65_{(8)}$
-  - $568_{(10)}$
+  - $561_{(10)}$
 - Convertir de Hexa a Decimal y visceversa:
   - $\text{F}8\text{A}_{(16)}$
   - $325_{(10)}$
