@@ -1,7 +1,7 @@
 # Ejercicios
 
-#### Indique de acuerdo al estándar IEEE 754 de 32 bits el valor binario del siguiente número fraccionario (1.93)
-    **-94,475**
+### Indique de acuerdo al estándar IEEE 754 de 32 bits el valor binario del siguiente número fraccionario (1.93)
+    -94,475
 
     Escriba su resultado en una sola secuencia binaria de 32 bits
 
@@ -43,11 +43,11 @@ Mantisa y expontente:
     1. $127 + 6 = 133 \rightarrow 128 + 4 + 1 \rightarrow 10000101$
  5. Finalmente se juntan todas las partes: Signo Exponente Mantisa
 
-Resultado: $1 10000101 01111001111001100110011$
+Resultado: $1$&nbsp; $10000101$&nbsp; $01111001111001100110011$
 
 <br><br>
 
-#### Cual es el valor Binario del siguiente valor Hexadecimal (3.5)
+### Cual es el valor Binario del siguiente valor Hexadecimal (3.5)
 
     75
 
@@ -76,7 +76,7 @@ Resultado: $1 10000101 01111001111001100110011$
 
 <br><br>
 
-#### Cual es la equivalencia Hexadecimal del siguiente valor decimal (4.0)
+### Cual es la equivalencia Hexadecimal del siguiente valor decimal (4.0)
 
     58
 
@@ -97,7 +97,7 @@ Resultado: $1 10000101 01111001111001100110011$
 
 <br><br>
 
-#### Considere el siguiente valor Binario representado en complemento a uno, en un registro de memoria de 8 bits y encuentre su correspondiente valor decimal (4.5)
+### Considere el siguiente valor Binario representado en complemento a uno, en un registro de memoria de 8 bits y encuentre su correspondiente valor decimal (4.5)
 
     1011 0011
 
@@ -121,7 +121,7 @@ Nos damos cuenta que nos dicen complemento a uno, y que el bit más significativ
 
 <br><br>
 
-#### Cual es la equivalencia Hexadecimal del siguiente valor Binario (4.5)
+### Cual es la equivalencia Hexadecimal del siguiente valor Binario (4.5)
 
     111010
 
@@ -155,16 +155,16 @@ Nos damos cuenta que nos dicen complemento a uno, y que el bit más significativ
 
 <br><br>
 
-#### Demuestre y obtenga el resultado binario, de la siguiente operación (4.5)
+### Demuestre y obtenga el resultado binario, de la siguiente operación (4.5)
 
     111101 / 11
 
 #### Solución:
 
-&nbsp;1 1 1 1 0 1 / 11 = 10100
--1 1
-0 0 1
-0 0 1 1
-&nbsp; &nbsp; - 1 1
-&nbsp; &nbsp; &nbsp; 0 0 0
-&nbsp; &nbsp; &nbsp; 0 0 0 1
+&nbsp;1 1 1 1 0 1 / 11 = 10100<br>
+-1 1<br>
+0 0 1<br>
+0 0 1 1<br>
+&nbsp; &nbsp; - 1 1<br>
+&nbsp; &nbsp; &nbsp; 0 0 0<br>
+&nbsp; &nbsp; &nbsp; 0 0 0 1<br>
