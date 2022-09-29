@@ -17,16 +17,16 @@
 
 1. Simplifique usando algebra de Boole
 
-![](IMG\Circuito.png)
+![](img\Circuito.png)
 
 <details>
     <summary>Tabla de Verdad</summary>
-    <img src="IMG\CircuitoTabla.png">
+    <img src="img\CircuitoTabla.png">
 </details>
 
 <details>
     <summary>Ecuación de Boole</summary>
-    <img src="IMG\CircuitoBoole.png">
+    <img src="img\CircuitoBoole.png">
 </details>
 
 <details>
@@ -36,23 +36,23 @@
 
 <details>
     <summary>Tabla de Verdad Simplificada</summary>
-    <img src="IMG\CircuitoSimplificadoTabla.png">
+    <img src="img\CircuitoSimplificadoTabla.png">
 </details>
 
 <br>
 
 1. Simplifique usando algebra de Boole
 
-![](IMG\Circuito2.png)
+![](img\Circuito2.png)
 
 <details>
     <summary>Tabla de Verdad</summary>
-    <img src="IMG\Circuito2Tabla.png">
+    <img src="img\Circuito2Tabla.png">
 </details>
 
 <details>
     <summary>Ecuación de Boole</summary>
-    <img src="IMG\Circuito2Boole.png">
+    <img src="img\Circuito2Boole.png">
 </details>
 
 <details>
@@ -62,7 +62,7 @@
 
 <details>
     <summary>Tabla de Verdad Simplificada</summary>
-    <img src="IMG\Circuito2SimplificadoTabla.png">
+    <img src="img\Circuito2SimplificadoTabla.png">
 </details>
 
 
