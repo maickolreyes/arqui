@@ -2,7 +2,7 @@
 
 ### Compuertas Lógicas
 
-![](img\Compuertas.png)
+![](https://github.com/maickolreyes/arqui/blob/main/IMG/Compuertas.png)
 
 #### Listado
 
@@ -17,52 +17,52 @@
 
 1. Simplifique usando algebra de Boole
 
-![](img\Circuito.png)
+![](https://github.com/maickolreyes/arqui/blob/main/IMG/Circuito.png)
 
 <details>
     <summary>Tabla de Verdad</summary>
-    <img src="img\CircuitoTabla.png">
+    <img src="https://github.com/maickolreyes/arqui/blob/main/IMG/CircuitoTabla.png">
 </details>
 
 <details>
     <summary>Ecuación de Boole</summary>
-    <img src="img\CircuitoBoole.png">
+    <img src="https://github.com/maickolreyes/arqui/blob/main/IMG/CircuitoBoole.png">
 </details>
 
 <details>
     <summary>Simplificación</summary>
-    <img src="img\Circuito Simplificado.png">
+    <img src="https://github.com/maickolreyes/arqui/blob/main/IMG/Circuito%20Simplificado.png">
 </details>
 
 <details>
     <summary>Tabla de Verdad Simplificada</summary>
-    <img src="img\CircuitoSimplificadoTabla.png">
+    <img src="https://github.com/maickolreyes/arqui/blob/main/IMG/CircuitoSimplificadoTabla.png">
 </details>
 
 <br>
 
 1. Simplifique usando algebra de Boole
 
-![](img\Circuito2.png)
+![](https://github.com/maickolreyes/arqui/blob/main/IMG/Circuito2.png)
 
 <details>
     <summary>Tabla de Verdad</summary>
-    <img src="img\Circuito2Tabla.png">
+    <img src="https://github.com/maickolreyes/arqui/blob/main/IMG/Circuito2Tabla.png">
 </details>
 
 <details>
     <summary>Ecuación de Boole</summary>
-    <img src="img\Circuito2Boole.png">
+    <img src="https://github.com/maickolreyes/arqui/blob/main/IMG/Circuito2Boole.png">
 </details>
 
 <details>
     <summary>Simplificación</summary>
-    <img src="img\Circuito2Simplificado.png" width="500vw">
+    <img src="https://github.com/maickolreyes/arqui/blob/main/IMG/Circuito2Simplificado.png" width="500vw">
 </details>
 
 <details>
     <summary>Tabla de Verdad Simplificada</summary>
-    <img src="img\Circuito2SimplificadoTabla.png">
+    <img src="https://github.com/maickolreyes/arqui/blob/main/IMG/Circuito2SimplificadoTabla.png">
 </details>
 
 
@@ -74,19 +74,19 @@
 
 <details>
     <summary>Mapa</summary>
-    <img src="img/Karnaugh.png" width="500vw">
+    <img src="https://github.com/maickolreyes/arqui/blob/main/IMG/Karnaugh.png" width="500vw">
 </details>
 <details>
     <summary>Separación de Grupos</summary>
-    <img src="img/KarnaughGrupos.png" width="500vw">
+    <img src="https://github.com/maickolreyes/arqui/blob/main/IMG/KarnaughGrupos.png" width="500vw">
 </details>
 <details>
     <summary>Grupos</summary>
-    <img src="img/KarnaughGrupo1.png" width="200vw">
-    <img src="img/KarnaughGrupo2.png" width="200vw">
-    <img src="img/KarnaughGrupo3.png" width="200vw">
+    <img src="https://github.com/maickolreyes/arqui/blob/main/IMG/KarnaughGrupo1.png" width="200vw">
+    <img src="https://github.com/maickolreyes/arqui/blob/main/IMG/KarnaughGrupo2.png" width="200vw">
+    <img src="https://github.com/maickolreyes/arqui/blob/main/IMG/KarnaughGrupo3.png" width="200vw">
 </details>
 <details>
     <summary>Simplificación</summary>
-    <img src="img/KarnaughSolucion.png" width="250vw">
+    <img src="https://github.com/maickolreyes/arqui/blob/main/IMG/KarnaughSolucion.png" width="250vw">
 </details>
